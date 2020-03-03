@@ -2,7 +2,22 @@
 
 [screenshot](/img/screenshot.jpg)
 
-A fully responsive clone of chemical society of nigeria advert confrence page Web
+A fully responsive clone of chemical society of nigeria advert confrence Web page
+
+with properties such as;
+
+the main page, with a menu link to the about page and tickets page
+the about page
+the tickets page
+Each of these pages have versions for 2 different screen sizes:
+
+mobile: up to 768px
+desktop: from 768px
+follow the guidelines of the given design, including:
+
+colors
+typographies: font face, size and weight
+layout: composition and space between elements, for the 2 given screen sizes
 
 ## Built With
 
