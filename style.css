@@ -22,15 +22,24 @@ body {
   padding: 8px 110px;
 }
 
-.topic-contact p,
+.topic-contact p {
+  color: #272a31;
+  font-weight: bolder;
+}
+
 .topic-contact a {
-  color: orangered;
+  color: #272a31;
   font-weight: bolder;
 }
 
 .main-program-box a {
   text-decoration: underline;
-  color: white;
+  color: #d3d3d3;
+}
+
+.main-program-box h4 > a {
+  text-decoration: underline;
+  color: #ec5242;
 }
 
 .nav-bottom-grid > li > a {
@@ -56,6 +65,11 @@ body {
   font-size: 20px;
 }
 
+.main-program-div h6 > a {
+  color: #d3d3d3;
+  font-size: 15px;
+}
+
 .nav-top-grid li > a {
   text-decoration: none;
   color: white;
@@ -64,7 +78,7 @@ body {
 }
 
 .nav-top-grid > li > a:hover {
-  color: orangered;
+  color: #ec5242;
 }
 
 /* top nav end */
@@ -72,10 +86,11 @@ body {
 .nav-bar-bottom {
   width: 100%;
   height: 70px;
+  padding-bottom: 15px;
+  padding-top: 15px;
   background-color: white;
   display: flex;
   justify-content: flex-end;
-  font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
 .nav-bottom {
@@ -92,7 +107,7 @@ body {
 }
 
 .nav-bottom-grid > li > a:hover {
-  color: rgb(236, 82, 66);
+  color: #ec5242;
 }
 
 .bottom-image img {
@@ -109,7 +124,6 @@ body {
   float: right;
   padding-left: 4px;
   padding-top: 7px;
-  font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
 .text {
@@ -120,13 +134,12 @@ body {
 }
 
 .text p {
-  color: rgb(236, 82, 66);
+  color: #ec5242;
   width: 125px;
   cursor: pointer;
-  font-family: Lato, Arial, Helvetica, sans-serif;
   border-width: 4px;
   border-style: solid;
-  border-color: rgb(236, 82, 66);
+  border-color: #ec5242;
   border-image: initial;
   border-radius: 10px;
   padding: 8px;
@@ -135,7 +148,7 @@ body {
 }
 
 .registration p {
-  color: orangered;
+  color: #d3d3d3;
 }
 
 .food p {
@@ -152,17 +165,29 @@ body {
   padding-top: 20px;
 }
 
-.submit p {
-  border: solid;
-  background-color: white;
-  display: inline;
-  color: orangered;
-  font-size: 20px;
-  padding: 10px;
+.button-submit {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-submit {
+  background-color: #ec5242;
+  border: none;
+  color: white;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn-submit:hover {
+  color: #d3d3d3;
+  font-weight: bolder;
 }
 
 .ticket p {
-  background-color: orangered;
+  background-color: #ec5242;
   color: white;
   font-size: 20px;
 }
@@ -174,9 +199,15 @@ body {
   text-align: center;
 }
 
+.meal p {
+  color: #ec5242;
+  background-color: #d3d3d3;
+  font-weight: bolder;
+}
+
 .text p:hover {
   color: rgb(211, 211, 211);
-  background-color: rgb(236, 82, 66);
+  background-color: #ec5242;
   font-weight: bold;
 }
 
@@ -187,7 +218,7 @@ body {
 .main-home-container {
   width: 100%;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSnf09_FJsknW7G8WmT7tFQBG8YLFzgN1UAR6jQ6mabAb3D87Ed);
   background-size: cover;
   background-repeat: no-repeat;
@@ -209,13 +240,13 @@ body {
   padding-bottom: 25px;
   font-size: 30px;
   font-weight: bolder;
-  color: blue;
+  color: #ec5242;
 }
 
 .location h1 {
   padding-bottom: 25px;
   padding-top: 25px;
-  color: orangered;
+  color: #272a31;
 }
 
 .register {
@@ -224,7 +255,15 @@ body {
 
 .main-div {
   padding-top: 30px;
-  background-color: darkgray;
+  background-color: #d3d3d3;
+}
+
+.footer-top-div-about {
+  background-color: #d3d3d3;
+}
+
+.footer-top-div-about h2 {
+  text-align: center;
 }
 
 .main-program-div {
@@ -232,11 +271,11 @@ body {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: #d3d3d3;
+  background-color: #272a31;
 }
 
 .main-program-div h2 {
-  color: #272a31;
+  color: #d3d3d3;
   font-size: 22px;
 }
 
@@ -252,14 +291,14 @@ body {
 
 .main-program-box {
   width: 80%;
-  background-color: #272a31;
+  background-color: #5c5959;
   padding: 5px 10px;
   cursor: pointer;
   font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-program-box:hover {
-  outline: #ec5242 solid 3px;
+  outline: #d3d3d3 solid 3px;
 }
 
 .fa-calendar-alt,
@@ -282,15 +321,15 @@ body {
 }
 
 .button-register {
-  color: rgb(236, 82, 66);
+  color: #ec5242;
   width: 125px;
   cursor: pointer;
   font-family: Lato, Arial, Helvetica, sans-serif;
   border-width: 4px;
   border-style: solid;
-  border-color: rgb(236, 82, 66);
+  border-color: #ec5242;
   border-image: initial;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 8px;
   padding-top: 15px;
   transition: all 0.5s ease-out 0s;
@@ -298,12 +337,13 @@ body {
 
 .button-register:hover {
   color: rgb(211, 211, 211);
-  background-color: rgb(236, 82, 66);
+  background-color: #ec5242;
   font-weight: bold;
 }
 
 .prgrame {
   padding: 20px;
+  padding-bottom: 30px;
 }
 
 .speaker-text {
@@ -445,6 +485,11 @@ body {
   cursor: pointer;
 }
 
+.first-menu-ul li {
+  padding: 15px;
+  font-size: 11px;
+}
+
 .footer-top ul li {
   display: block;
   width: 100%;
@@ -477,6 +522,7 @@ body {
   padding-top: 20px;
   height: 125px;
   text-align: center;
+  background-color: #d3d3d3;
 }
 
 .footer-bottom {
@@ -493,7 +539,7 @@ body {
   background: url(https://image.shutterstock.com/image-photo/group-chemistry-students-working-laboratory-600w-715669897.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: red;
+  background-color: #ec5242;
 }
 
 .main-top-div h1 {
@@ -516,13 +562,11 @@ body {
   margin: 15px auto;
   border: 1px solid #d3d3d3;
   padding: 20px 50px;
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .topic-contact {
   width: 50%;
   margin: 40px auto;
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-topic {
@@ -563,11 +607,11 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: inset 276px 250px rgba(236, 82, 66, 0.8);
+  box-shadow: inset 276px 250px #ec5242;
 }
 
 .history-cards:hover {
-  box-shadow: inset 276px 250px rgba(236, 82, 66, 0.5);
+  box-shadow: inset 276px 250px #ec5242;
 }
 
 .history-cards h4 {
@@ -577,7 +621,7 @@ body {
 }
 
 .background-about {
-  background-color: darkgray;
+  background-color: #272a31;
 }
 
 /* end of about */
@@ -594,7 +638,7 @@ body {
 }
 
 .navigation-bar li > a:hover {
-  color: orangered;
+  color: #ec5242;
 }
 
 .ticket {
@@ -631,7 +675,7 @@ body {
 
 .first-menu h3 {
   padding-bottom: 10px;
-  background-color: brown;
+  background-color: #ec5242;
   text-align: center;
   font-size: 20px;
 }
@@ -650,36 +694,25 @@ body {
   padding-top: 100px;
 }
 
-.submit {
-  border: none;
-  background-color: gray;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  width: 100%;
-}
-
 .second-menu {
-  border-radius: 1px solid white;
+  border-radius: 1px solid #d3d3d3;
   border: solid;
   height: 50px;
   border-top: 50px;
 }
 
 .food-section-div {
-  background-color: gray;
+  background-color: #c7c4c4;
 }
 
 .section-ticket-div {
-  background-color: rgb(101, 104, 109);
+  background-color: #d3d3d3;
 }
 
 .p-one {
-  color: white;
+  color: black;
   padding-top: 15px;
-  border-radius: 1px solid white;
+  border-radius: 1px solid #d3d3d3;
   border: solid;
   height: 50px;
 }
@@ -822,7 +855,7 @@ body {
     font-size: 15px;
     color: wheat;
     position: fixed;
-    background-color: red;
+    background-color: #ec5242;
   }
 
   .footer-bottom h6 {
@@ -859,10 +892,12 @@ body {
   .speaker-text h4 {
     padding-top: 20px;
     padding-bottom: 20px;
+    color: #272a31;
   }
 
   .speaker-text p {
     padding-top: 20px;
     padding-bottom: 20px;
+    color: #d3d3d3;
   }
 }

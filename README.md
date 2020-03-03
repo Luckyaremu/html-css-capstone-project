@@ -1,6 +1,6 @@
 > Capstone project (Clone conference page)
 
-[screenshot](img\screenshot.jpg)
+[screenshot](/img/screenshot.jpg)
 
 A fully responsive clone of chemical society of nigeria advert confrence page Web
 
@@ -64,6 +64,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Capstone project](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- [This Capstone project is an original design of](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 📝 License
