@@ -9,10 +9,6 @@ body {
   font-size: 20px;
 }
 
-.menu-bars {
-  display: none;
-}
-
 .nav-bar {
   width: 100%;
   height: 40px;
@@ -130,6 +126,19 @@ body {
   padding-left: 20px;
 }
 
+.burger {
+  display: none !important;
+}
+
+.intro {
+  display: inline;
+  font-size: 20px;
+  position: absolute;
+  top: 1px;
+  z-index: 1;
+  left: 10px;
+}
+
 .bottom-image p {
   line-height: 1;
   font-size: 10px;
@@ -229,10 +238,6 @@ body {
   color: rgb(211, 211, 211);
   background-color: #ec5242;
   font-weight: bold;
-}
-
-.menu-bars {
-  display: none;
 }
 
 .main-home-container {
@@ -828,7 +833,7 @@ body {
   .two,
   .three {
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .one {
@@ -1005,17 +1010,32 @@ body {
   }
 }
 
-@media only screen and (max-width: 990px) {
-  .menu-bars {
-    display: inline;
-    font-size: 20px;
-    position: absolute;
-    top: 30px;
-    z-index: 1;
-    left: 10px;
+@media screen and (max-width: 1178px) {
+  header {
+    display: none !important;
   }
 
-  .nav-bottom {
-    padding-top: -20px;
+  marquee {
+    display: none !important;
+  }
+
+  .fir {
+    margin-right: 0;
+  }
+
+  .sec {
+    margin-left: 0;
+  }
+
+  .burger {
+    color: black;
+    display: inherit !important;
+    float: left;
+    font-size: 2rem;
+    padding-left: 1rem;
+  }
+
+  .burger:hover {
+    color: white;
   }
 }
