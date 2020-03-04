@@ -65,7 +65,7 @@ Aremu Lucky
 
 - Github: [@githubhandle](https://github.com/Luckyaremu)
 - Twitter: [@twitterhandle](@luckyaremu)
-- Linkedin: [linkedin]()
+- Linkedin: [linkedin](https://www.linkedin.com/in/lucky-aremu-24807a145/)
 
 ## 🤝 Contributing
 
