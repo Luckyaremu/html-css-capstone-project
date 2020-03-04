@@ -9,6 +9,10 @@ body {
   font-size: 20px;
 }
 
+.menu-bars {
+  display: none;
+}
+
 .nav-bar {
   width: 100%;
   height: 40px;
@@ -21,6 +25,10 @@ body {
 .nav-top {
   width: 60%;
   padding: 8px 110px;
+}
+
+.main-nav {
+  background-color: #272a31;
 }
 
 .topic-contact p {
@@ -103,6 +111,8 @@ body {
   display: flex;
   justify-content: flex-end;
   padding: 10px;
+  padding-top: 20px;
+  font-size: 20px;
   text-decoration: none;
   list-style: none;
   width: 100%;
@@ -147,7 +157,7 @@ body {
   border-image: initial;
   border-radius: 10px;
   padding: 8px;
-  padding-top: 15px;
+  padding-bottom: 10px;
   transition: all 0.5s ease-out 0s;
 }
 
@@ -739,6 +749,10 @@ body {
     font-size: 10px;
   }
 
+  .main-nav {
+    display: none;
+  }
+
   .speakers-div {
     width: 100%;
     margin-top: 30px;
@@ -788,21 +802,12 @@ body {
     font-size: 8px;
   }
 
-  .header {
+  .nav-bar {
     display: none;
   }
 
   .registration {
     display: none;
-  }
-
-  .menu-bars {
-    display: inline;
-    font-size: 20px;
-    position: absolute;
-    top: 30px;
-    z-index: 1;
-    left: 10px;
   }
 
   .main-program {
@@ -1000,50 +1005,17 @@ body {
   }
 }
 
-@media only screen and (max-width: 1210px) {
-  .nav-bar-bottom {
-    width: 100%;
-    height: 50px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    background-color: white;
-    display: flex;
-    justify-content: flex-end;
+@media only screen and (max-width: 990px) {
+  .menu-bars {
+    display: inline;
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    z-index: 1;
+    left: 10px;
   }
 
   .nav-bottom {
-    width: 60%;
-    padding: 8px;
-    font-size: 10px;
-  }
-
-  .nav-bottom-grid {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 10px;
-    text-decoration: none;
-    list-style: none;
-    width: 100%;
-    font-weight: 500;
-  }
-
-  .bottom-image img {
-    width: 40px;
-    height: 40px;
-    float: right;
-    padding-top: 3px;
-  }
-
-  .bottom-image p {
-    line-height: 1;
-    font-size: 7px;
-    float: right;
-    padding-top: 7px;
-  }
-
-  .text p {
-    font-size: 15px;
+    padding-top: -20px;
   }
 }
