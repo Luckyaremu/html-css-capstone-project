@@ -55,21 +55,6 @@ body {
   margin: 30px;
 }
 
-.nav-top-grid {
-  display: flex;
-  justify-content: flex-end;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-}
-
-.navigation-bar li > a {
-  list-style: none;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 20px;
-}
-
 .main-program-div h6 > a {
   color: #d3d3d3;
   font-size: 15px;
@@ -80,6 +65,19 @@ body {
   color: white;
   display: inline;
   padding: 0 5px;
+}
+
+.main-program-box p > a:hover {
+  text-decoration: underline;
+  color: #ec5242;
+}
+
+.nav-top-grid {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
 .nav-top-grid > li > a:hover {
@@ -449,7 +447,7 @@ body {
 .speakers-pic img {
   box-shadow: -5px -5px 8px rgb(20, 15, 15), -10px -10px 8px rgb(48, 5, 5), -15px -15px 8px rgb(247, 219, 219);
   width: 100%;
-  height: 130px;
+  height: 120px;
 }
 
 .speaker-text h4 {

@@ -26,7 +26,7 @@ layout: composition and space between elements, for the 2 given screen sizes
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Luckyaremu/html-css-capstone-project/6be37076fc20a5bae01c920b8fcd877cc51b2963/index.html)
+[Live Demo Link](https://kind-stonebraker-5d40a0.netlify.com/#)
 
 ## Getting Started
 
